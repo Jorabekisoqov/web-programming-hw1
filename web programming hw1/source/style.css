@@ -1,0 +1,124 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+   
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+}
+
+#home {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#about, #projects {
+    background-color: #ddd;
+}
+
+.project {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#contact {
+    background-color: #f4f4f4;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+
+
+/* Centering content on the page */
+.centered-content {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Make the container fill the full viewport height */
+    background-color: #f4f4f4; /* Background color for the page */
+}
+
+/* Optional styling for text and links */
+.centered-content h1 {
+    font-size: 2rem; /* Adjust font size for the heading */
+    color: #333; /* Text color */
+}
+
+.centered-content p {
+    font-size: 1.2rem; /* Adjust font size for the paragraph */
+    color: #555; /* Text color */
+}
+
+.centered-content a {
+    color: #0066cc; /* Link color */
+    text-decoration: none;
+}
+
+.centered-content a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

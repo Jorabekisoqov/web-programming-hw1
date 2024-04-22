@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="code/script.js"></script>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is where I showcase my skills and projects.</p>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aliquam quidem expedita enim modi voluptatem, exercitationem id in sunt doloribus dicta maiores eum, hic numquam, veniam nostrum eveniet deleniti earum?</section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Gloving man model</p>
+            <picture>
+                <source srcset="image/project1.jpg" media="(max-width: 800px)">
+                <img src="image\sa2-17.jpg">
+            </picture>
+            
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Creating motion of gloving man</p>
+            <picture>
+                <source srcset="image/project2.jpg" media="(max-width: 800px)">
+                <img src="image\sa2-17.jpg" >
+            </picture>
+            
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="thankyou.html" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
